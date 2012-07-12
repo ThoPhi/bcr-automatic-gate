@@ -1,9 +1,0 @@
----- uart_put( Matches (8 in 4 files) ----
-Main.c:					uart_put(StorageResult[i][j]);
-Race.c:			uart_put(Player);
-Race.c:			uart_put(Lap);
-Race.c:			uart_put(Second/256);
-Race.c:			uart_put(Second%256);
-Race.c:			uart_put(Tick);					
-RF.c (rf):void uart_put(unsigned char c){
-RF.h (rf):void uart_put(unsigned char c);
